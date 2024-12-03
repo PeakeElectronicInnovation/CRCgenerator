@@ -9,7 +9,8 @@ build/
 
 # PyInstaller
 *.manifest
-*.spec
+# Don't ignore spec files as they contain important build configuration
+#*.spec
 
 # Virtual environment
 venv/
